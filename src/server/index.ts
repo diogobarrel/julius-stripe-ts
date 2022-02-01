@@ -9,7 +9,7 @@ const route = Router()
 app.use(express.json())
 
 route.get('/', (req: Request, res: Response) => {
-  res.json({ message: 'hello world with Typescript' })
+  res.json({ message: 'Hello world with Typescript and Stripe' })
 })
 
 app.use(route)
